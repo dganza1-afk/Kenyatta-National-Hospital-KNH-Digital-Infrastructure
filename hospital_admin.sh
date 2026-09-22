@@ -18,9 +18,3 @@ initialize_system() {
     echo "System initialization complete."
 }
 initialize_system
-
-secure_data() {
-    chmod 700 active_logs
-    echo "New permissions for active_logs:"
-    ls -ld active_logs
-}
