@@ -17,4 +17,25 @@ initialize_system() {
 
     echo "System initialization complete."
 }
+# ============================================================
+# MEMBER 3: THE ORCHESTRATOR
+# Execute functions in the required order
+# ============================================================
+
+echo "=========================================="
+echo "KNH DIGITAL INFRASTRUCTURE"
+echo "Hospital Administration System"
+echo "=========================================="
+echo
+
+# Step 1: Initialize the system
 initialize_system
+
+# Step 2: Secure the data
+secure_data
+
+# Step 3: Confirm completion
+echo "=========================================="
+echo "System Environment Secured"
+echo "Date: $(date)"
+echo "=========================================="
