@@ -31,6 +31,18 @@ echo
 # Step 1: Initialize the system
 initialize_system
 
+# ============================================================
+# MEMBER 2: The Security Lead
+# Secure active_logs permissions
+# ============================================================
+secure_data() {
+    chmod 700 active_logs
+    echo "New permissions for active_logs:"
+    ls -ld active_logs
+}
+
+ secure_data
+
 # Step 2: Secure the data
 secure_data
 
