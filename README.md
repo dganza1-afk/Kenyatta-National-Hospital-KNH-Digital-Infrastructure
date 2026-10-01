@@ -23,7 +23,7 @@ Coding-lab_GroupXX/
 | Member 3 | The Orchestrator | `hospital_admin.sh` | `main()` execution logic |
 | Member 4 | The Archivist | `hospital_archive.sh` | `rotate_logs()` |
 | Member 5 | Clinical Analyst | `hospital_analysis.sh` | `process_vitals()` |
-| Member 6 | Facility Auditor | `hospital_analysis.sh` | `water_audit()` |
+| Member 4 | Facility Auditor | `hospital_analysis.sh` | `water_audit()` |
 
 ## Usage
 
