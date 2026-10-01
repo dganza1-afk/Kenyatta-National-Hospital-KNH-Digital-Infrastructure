@@ -1,11 +1,11 @@
-# Coding-lab_GroupXX — Hospital System Automation
+# Coding-lab_Group6 — Hospital System Automation
 
 Shell-scripted setup, analysis, and archiving layer around `hospital_system.py`,
 KNH's patient-monitoring engine. Built for a coursework assignment; **no real
 patient data is ever committed to this repository** (see `.gitignore`).
 
 ## Project Structure
-Coding-lab_GroupXX/
+Coding-lab_Group6/
 ├── hospital_system.py # The Engine — core system logic
 ├── hospital_admin.sh # M1–M3 — environment setup & permissions
 ├── hospital_analysis.sh # M5–M6 — reporting & analytics
